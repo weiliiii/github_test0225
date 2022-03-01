@@ -29,6 +29,14 @@ a {
     padding: 0 20px;
 }
 
+.navbar_ul li a {
+    color: #fff;
+}
+
+.navbar_ul li a:hover , .r_btndiv a .loginbtn:hover{
+    color: #f09d28;
+}
+
 .r_btndiv {
     display: flex;
     align-items: center;
@@ -123,4 +131,45 @@ a {
 .img4_box h3 {
     font-size: 18px;
     font-weight: bold;
+}
+/*03*/
+.part03_box {
+    background-color: #f0ae1c;
+    padding: 10px 15% 5% 15%;
+}
+/*04*/
+.part04_box {
+    background-color: #fff;
+    margin: 10px 25% 5% 25%;
+}
+.part04_box .tit_box h1 {
+    color: #1c1c21;
+    font-size: 45px;
+}
+.part04_box .tit_box p {
+    color: #1c1c21;
+    font-size: 21px;
+    text-align: left;
+}
+.img_w {
+    width: 95%;
+    margin: 10px;
+    border: 3px solid #979797;
+}
+.img_w img {
+    max-width: 100%;
+}
+.part04_box a {
+    color: #f09d28;
+    text-decoration: underline;
+}
+
+/*phone*/
+@media screen and (max-width:1024px) { 
+    .logo_div {
+        margin: 10px 10px 10px 1%;
+    }
+    .navbar_ul {
+        margin-left: 0;
+    }
 }
